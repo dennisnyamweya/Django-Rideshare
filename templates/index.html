@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+      My Option
+{% endblock title %}
+
+{% block content %}
+   <!-- Main section -->
+   <div class="container">
+    <div class="home">
+        <img src="{% static './img/logo-main.svg' %}" class="logo" alt="logo"><br>
+        <a href="./dashboard.html" class="dri">Driver</a><br>
+        <a href="{% url 'dashboard' %}" class="pass">Passenger</a>
+        <p>Click a button on who you are? <br><br>{{status}}</p>
+    </div>
+
+    <footer>
+        <p>By clicking the button, you have agreed to our<br><b><span>Terms of Use & Privacy Policy</span></b></p>
+    </footer>
+</div>
+<!-- Main Section ends -->
+      
+{% endblock content %}
+ 

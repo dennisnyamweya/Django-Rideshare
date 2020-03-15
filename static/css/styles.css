@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.home{
+    margin-top: 70px;
+}
+.logo{
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    width: 90%;
+}
+.pass,.dri{
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+    width: 90%;
+    padding: 10px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    background-color: yellow;
+    text-decoration: none;
+    text-align: center;
+}
+.terms{
+    text-align: center;
+    justify-content: space-around;
+}
+.home p{
+    margin-top: 10px;
+    text-align: center;
+}
+.container footer{
+    text-align: center;
+    margin-top: 20px;
+
+}
